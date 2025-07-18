@@ -1,3 +1,4 @@
+import "./globals.css";
 export const metadata = {
   title: "ChatGPT UI",
 };
@@ -9,8 +10,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      {" "}
-      {/* <-- Enables dark mode by default */}
       <body>{children}</body>
     </html>
   );
